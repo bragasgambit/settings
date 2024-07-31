@@ -1,5 +1,6 @@
 # VS Code Settings
 
+```json
 {
   "breadcrumbs.enabled": false,
 
@@ -86,3 +87,4 @@
   "jupyter.interactiveWindow.creationMode": "perFile",
   "workbench.sideBar.location": "right"
 }
+```
