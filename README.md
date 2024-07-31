@@ -4,50 +4,47 @@
 {
   "breadcrumbs.enabled": false,
 
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.wordWrap": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  "[python]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit"
-    }
-  },
-
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.linkedEditing": true,
+  "editor.snippetSuggestions": "top",
 
-  "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
 
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.autoSave": "afterDelay",
 
+  "git.confirmSync": false,
+
+  "jupyter.interactiveWindow.creationMode": "perFile",
+
+  "python.terminal.activateEnvironment": false,
+
+  "redhat.telemetry.enabled": true,
+
+  "rust-analyzer.trace.extension": true,
+  "rust-analyzer.trace.server": "verbose",
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.enableVisualBell": true,
   "terminal.integrated.fontSize": 13,
 
-  "workbench.statusBar.visible": false,
-  "workbench.editor.showTabs": "none",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.editor.showTabs": "none",
+  "workbench.statusBar.visible": false,
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
-    "[Night Owl (No Italics)]": {
-      "activityBar.background": "#000C1D",
-      "activityBar.border": "#102a44",
-      "editorGroup.border": "#102a44",
-      "sideBar.background": "#001122",
-      "sideBar.border": "#102a44",
-      "sideBar.foreground": "#8BADC1"
-    },
     "[GitHub Dark Default]": {
       "activityBar.background": "#000",
       "editor.background": "#000",
@@ -71,20 +68,18 @@
       "terminal.foreground": "#000"
     }
   },
-  "explorer.confirmDragAndDrop": false,
-  "accessibility.signals.terminalBell": {
-    "sound": "on"
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "python.terminal.activateEnvironment": false,
-  "terminal.integrated.enableVisualBell": true,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "git.confirmSync": false,
-  "redhat.telemetry.enabled": true,
-  "rust-analyzer.trace.extension": true,
-  "rust-analyzer.trace.server": "verbose",
-  "security.workspace.trust.untrustedFiles": "open",
-  "gitlens.currentLine.enabled": false,
-  "jupyter.interactiveWindow.creationMode": "perFile",
-  "workbench.sideBar.location": "right"
+
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    }
+  }
 }
+
 ```
