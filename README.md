@@ -38,8 +38,8 @@
   "terminal.integrated.fontSize": 13,
 
   "workbench.colorTheme": "GitHub Dark Default",
-  "workbench.editor.showTabs": "none",
-  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.statusBar.visible": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
@@ -79,6 +79,11 @@
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit"
     }
+  },
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path-linux": "/home/yuri/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.kubectl-path-linux": "/home/yuri/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path-linux": "/home/yuri/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
   }
 }
 
