@@ -33,11 +33,10 @@
 
   "security.workspace.trust.untrustedFiles": "open",
 
-  "vscode-pets.theme": "none",
   "vscode-pets.petType": "cat",
-  "vscode-pets.position": "panel",
+  "vscode-pets.position": "explorer",
   "vscode-pets.petSize": "small",
-  "vscode-pets.petColor": "gray",
+  "vscode-pets.petColor": "black",
   "vscode-pets.throwBallWithMouse": true,
 
   "terminal.integrated.defaultProfile.windows": "Git Bash",
