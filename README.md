@@ -33,6 +33,13 @@
 
   "security.workspace.trust.untrustedFiles": "open",
 
+  "vscode-pets.theme": "none",
+  "vscode-pets.petType": "cat",
+  "vscode-pets.position": "panel",
+  "vscode-pets.petSize": "small",
+  "vscode-pets.petColor": "gray",
+  "vscode-pets.throwBallWithMouse": true,
+
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.enableVisualBell": true,
   "terminal.integrated.fontSize": 13,
@@ -40,7 +47,6 @@
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.editor.showTabs": "multiple",
   "workbench.statusBar.visible": true,
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.sideBar.location": "right",
@@ -84,7 +90,8 @@
     "vscode-kubernetes.helm-path-linux": "/home/yuri/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
     "vscode-kubernetes.kubectl-path-linux": "/home/yuri/.local/state/vs-kubernetes/tools/kubectl/kubectl",
     "vscode-kubernetes.minikube-path-linux": "/home/yuri/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
-  }
+  },
+  "workbench.iconTheme": "material-icon-theme"
 }
 
 ```
