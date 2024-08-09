@@ -5,6 +5,8 @@
   // Install extensions that are not setted here: Live Server, Pkl, SQLTools, Postman, Polacode-2022
   "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
 
+  "asdf.bin": "asdf",
+
   "better-comments.tags": [
     {
       "tag": "!",
