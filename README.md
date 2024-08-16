@@ -127,17 +127,14 @@
   "vscode-pets.petSize": "medium",
   "vscode-pets.position": "explorer",
   "vscode-pets.throwBallWithMouse": true,
-
-  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.editor.showTabs": "multiple",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.editorAssociations": {
     "*.svg": "hediet.vscode-drawio-text"
   },
 
   "workbench.statusBar.visible": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
-  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
     "[GitHub Dark Default]": {
@@ -151,17 +148,6 @@
       "terminal.background": "#000",
       "terminal.foreground": "#fff"
     },
-    "[GitHub Light Default]": {
-      "activityBar.background": "#fff",
-      "editor.background": "#fff",
-      "editor.lineHighlightBackground": "#fff0",
-      "editor.lineHighlightBorder": "#fff0",
-      "editorWhitespace.foreground": "#1167D7",
-      "panel.background": "#fff",
-      "sideBar.background": "#fff",
-      "terminal.background": "#fff",
-      "terminal.foreground": "#000"
-    }
   },
 
   "[javascript]": {
