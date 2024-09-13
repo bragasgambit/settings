@@ -134,20 +134,18 @@
   },
 
   "workbench.statusBar.visible": true,
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
-    "[GitHub Dark Default]": {
-      "activityBar.background": "#000",
-      "editor.background": "#000",
-      "editor.lineHighlightBackground": "#0000",
-      "editor.lineHighlightBorder": "#0000",
-      "editorWhitespace.foreground": "#59A5FC",
-      "panel.background": "#000",
-      "sideBar.background": "#000",
-      "terminal.background": "#000",
-      "terminal.foreground": "#fff"
-    },
+    "[Catppuccin Mocha]": {
+      "activityBar.background": "#191919",
+      "editor.background": "#191919",
+      "editor.lineHighlightBackground": "#191919",
+      "editor.lineHighlightBorder": "#191919",
+      "panel.background": "#191919",
+      "sideBar.background": "#191919",
+      "terminal.background": "#191919"
+    }
   },
 
   "[javascript]": {
@@ -222,6 +220,12 @@
   ],
   "todohighlight.maxFilesForSearch": 5120,
   "todohighlight.toggleURI": false,
-  "hediet.vscode-drawio.resizeImages": null
+  "hediet.vscode-drawio.resizeImages": null,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  }
 }
 ```
