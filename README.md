@@ -218,3 +218,8 @@
     }
   }
 ```
+
+# SSH keygen
+
+``` ssh-keygen -t rsa ``` &nbsp; ssh keygen <br>
+``` cat ~/.ssh/id_rsa.pub ``` &nbsp; cat the ssh, copy and paste the output on GitHub
