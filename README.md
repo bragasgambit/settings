@@ -223,3 +223,7 @@
 
 ``` ssh-keygen -t rsa ``` &nbsp; ssh keygen <br>
 ``` cat ~/.ssh/id_rsa.pub ``` &nbsp; cat the ssh, copy and paste the output on GitHub
+
+# To add something on .bashrc (bash read command)
+```code .bashrc``` &nbsp; to add the PATH lines of code a software need
+```source ~/.bashrc``` &nbsp; to reload the .bashrc
